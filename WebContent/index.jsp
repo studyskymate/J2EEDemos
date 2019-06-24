@@ -7,10 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <h1>Java Server Pages</h1>
+
 <a href="scriptlets.jsp"> Scriptlets </a>
 
-> <h1><a href="implicit.jsp">Implicit Objects </a></h1>
+<h1><a href="implicit.jsp">Implicit Objects </a></h1>
 
 <form action="implicit.jsp">  
 <input type="text" name="name">  

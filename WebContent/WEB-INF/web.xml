@@ -18,12 +18,15 @@
 <param-name>countryName</param-name>  
 <param-value>Fiji Islands</param-value>  
 </init-param>  
+
   
 </servlet>  
   
 <servlet-mapping>  
 <servlet-name>dinesh</servlet-name>  
 <url-pattern>/hello</url-pattern>  
-</servlet-mapping>  
+</servlet-mapping> 
+ 
+ 
 
 </web-app>
