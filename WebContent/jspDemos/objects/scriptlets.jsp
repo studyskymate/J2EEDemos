@@ -9,8 +9,9 @@
 <body>
 
 
-<h1> Scriptlets </h1>
-<h1>JSP scriptlet tag </h1>
+<h2> JSP Scripting Elements </h2>
+
+<h2>JSP scriptlet tag </h2>
 <% out.print("Welcome to JP"); %>  
 <br/>
 <% out.print("Welcome to JSP "+ request.getParameter("name")); %>  

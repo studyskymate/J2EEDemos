@@ -26,7 +26,7 @@
 </form>  
 
 <h2>application</h2>
- <h3>driver name</h3> <% application.getInitParameter("driverName");  %>
+<h3>driver name</h3> <%= application.getInitParameter("driverName")  %>
 
 
 </body>

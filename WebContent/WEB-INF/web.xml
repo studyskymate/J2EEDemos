@@ -19,14 +19,24 @@
 <param-value>Fiji Islands</param-value>  
 </init-param>  
 
-  
-</servlet>  
+  </servlet>  
+
+
   
 <servlet-mapping>  
 <servlet-name>dinesh</servlet-name>  
 <url-pattern>/hello</url-pattern>  
 </servlet-mapping> 
  
+<context-param>  
+<param-name>driverName</param-name>  
+<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+</context-param> 
+
+<context-param>  
+<param-name>rootWebPath</param-name>  
+<param-value>/jspDemos/sessionDemo/</param-value>  
+</context-param>   
  
 
 </web-app>

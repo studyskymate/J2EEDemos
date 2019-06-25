@@ -10,12 +10,12 @@
 
 <h1>Java Server Pages</h1>
 
-<a href="scriptlets.jsp"> Scriptlets </a>
+<h2><a href="scriptlets.jsp">JSP Scripting Elements </a> </h2>
 
-<h1><a href="implicit.jsp">Implicit Objects </a></h1>
+<h2><a href="implicit.jsp">Implicit Objects </a></h2>
 
 <form action="implicit.jsp">  
-<input type="text" name="name">  
+ Name: <input type="text" name="name">  
 <input type="submit" value="Submit"><br/>  
 </form> 
 
