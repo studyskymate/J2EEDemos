@@ -10,11 +10,15 @@
 
 <%   
 
-String name=request.getParameter("userName");  
+String name= request.getParameter("userName"); 
+
 out.print("Welcome "+name);  
   
 session.setAttribute("user",name);  
+
 %> 
+
+<%=application.getInitParameter("driverName") %>
 
 <a href="userInfo.jsp">User Information</a>  
   

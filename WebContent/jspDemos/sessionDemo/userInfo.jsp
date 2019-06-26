@@ -8,9 +8,11 @@
 </head>
 <body>
 <h1>User Information</h1>
+
 <%
 String name=(String)session.getAttribute("user");  
 out.print("Hello "+name);
 %>
+
 </body>
 </html>
